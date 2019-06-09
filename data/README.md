@@ -1,6 +1,8 @@
 # Data
 
-## Java Method Name Prediction Data
+## Method Name Prediction Data
+
+### Java
 Due to the rather large size of the datasets and the 100MB limitation Github enforces, we've provided a [link](https://drive.google.com/open?id=1mJRuS_Z0MMYmwWO09LrSXC5idqdgCVCJ) to the preprocessed Java datasets. Files prefixes (eg. src and tgt) indicate the OpenNMT flags to use with each. 
 
 NOTE: preprocessed here means:
@@ -8,19 +10,23 @@ NOTE: preprocessed here means:
 - The method name has been stripped of parameters
 - The methody body has been converted to an AST with several paths sampled between terminal nodes
 
-### Inputs (X)
+#### Inputs (X)
 - src.train.txt
 - src.val.txt
 - src.test.txt
 
-### Targets (Y)
+#### Targets (Y)
 - tgt.train.txt
 - tgt.val.txt
 - tgt.test.txt
 
 Source: [code2seq](https://github.com/tech-srl/code2seq#datasets)
 
-### Funcom Java Code Summarization Datasets
+### Python
+
+This dataset was small enough to check in directly (see above). 
+
+## Summarization Datasets (Java Only)
 
 Details on the dataset can be found at http://leclair.tech/data/funcom/#procdata
 
