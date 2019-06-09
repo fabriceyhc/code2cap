@@ -23,8 +23,17 @@ NOTE: preprocessed here means:
 Source: [code2seq](https://github.com/tech-srl/code2seq#datasets)
 
 ### Python
+The dataset for Python was preprocessed to obtain a training dataset with sources consisting of cleaned ASTs and targets being the respective function names. The training, test and validation sets can be found [here](https://drive.google.com/drive/folders/1xzJUoq8nnCYjWnbXQnS7bzmuaFuYi0h4?usp=sharing).
 
-This dataset was small enough to check in directly (see above). 
+#### Inputs (X)
+- in_train.txt
+- in_val.txt
+- in_test.txt
+
+#### Targets (Y)
+- decl_train.txt
+- decl_val.txt
+- decl_test.txt
 
 ## Summarization Datasets (Java Only)
 
