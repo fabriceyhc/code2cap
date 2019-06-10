@@ -1,4 +1,4 @@
-# code2cap
+# code2func
 UCLA CS 269 Final Project
 
 The aim of the project is to  build a tool that can automatically produce a concise natural language summary 
