@@ -1,8 +1,7 @@
 # code2func
 UCLA CS 269 Final Project
 
-The aim of the project is to  build a tool that can automatically produce a concise natural language summary 
-of source code in the form of method name predictions.
+The aim of the project is to build a developer productivity tool that can automatically produce a reasonable, syntactically correct function name when provided the code body. 
 
 ## Directories & descriptions
 
